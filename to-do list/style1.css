@@ -1,0 +1,110 @@
+body {
+    /* background-color: #f2f2f2; */
+   font-family: Arial, sans-serif;
+    margin: 60px auto;
+    padding: 0;
+    background-color: rgb(4, 4, 82);
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: center;
+    color: #333;
+    margin-top: 0;
+    
+  }
+  
+  .add-task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-task input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-task button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-task button:hover {
+    background-color: #45a049;
+  }
+  
+  .task-section {
+    margin-bottom: 20px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .section-title {
+    color: #333;
+    margin-top: 0;
+  }
+  
+  .task-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .task:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .task .task-text {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .task .task-buttons button {
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: #ddd;
+    color: #333;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .task .task-buttons button:hover {
+    background-color: #ccc;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
